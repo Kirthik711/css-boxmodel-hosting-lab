@@ -34,3 +34,5 @@ h1 { color: #333; margin-bottom: 30px; text-align: center; }
 .prod-card:hover { transform: translateY(-5px); border-color: #3498db; }
 button { background-color: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
 button:hover { background-color: #2980b9; }
+/* Final spacing adjustment */
+body { margin-bottom: 80px; }
