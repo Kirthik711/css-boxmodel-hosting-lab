@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Tech Tasks - Kirthik Raj</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CSS Border Properties Demo</h1>
+<div class="container">
+    <div class="card shorthand">Border Shorthand</div>
+    <div class="card multi-side">Individual Sides</div>
+    <div class="card dashed-dotted">Dashed Border</div>
+    <div class="card double-border">Double Border</div>
+    <div class="card rounded">Border Radius</div>
+    <div class="card outline-demo">Outline with Offset</div>
+</div>
+
+<hr style="margin: 50px 0; border-top: 2px dashed #ccc;">
+
+<h1>Box Model Visualizer</h1>
+<div class="margin-layer">
+    <div class="box-visual">
+        <div class="content-area">
+            <strong>Box Model Specs:</strong><br>
+            Content: 230px (Width) x Auto (Height)<br>
+            Padding: 30px<br>
+            Border: 15px<br>
+            Margin: 40px
+        </div>
+    </div>
+</div>
+<p class="explanation">
+With <strong>box-sizing: border-box</strong>, the total width remains exactly 320px because
+the padding and border are subtracted from the content area rather than added to it.
+</p>
+
+<hr style="margin: 50px 0; border-top: 2px dashed #ccc;">
+
+<h1>Padding vs Margin</h1>
+<div class="labels">
+    <span>Box A (Padding)</span>
+    <span>Box B (Margin)</span>
+</div>
+<div class="wrapper">
+    <div class="box box-a">
+        <p>I have 50px of padding. Notice how the space is INSIDE the border, pushing the yellow text away from the edge.</p>
+    </div>
+    <div class="box box-b">
+        <p>I have 50px of margin. Notice how the space is OUTSIDE the border, pushing the entire box away from Box A.</p>
+    </div>
+</div>
+
+</body>
+</html>
