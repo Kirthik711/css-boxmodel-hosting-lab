@@ -31,3 +31,6 @@ h1 { color: #333; margin-bottom: 30px; text-align: center; }
 .product-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 800px; margin: 0 auto; }
 .prod-card { border: 2px solid #ddd; border-radius: 12px; padding: 20px; text-align: center; background: white; transition: transform 0.2s; }
 .price { color: #27ae60; font-weight: bold; font-size: 1.2em; margin: 10px 0; }
+.prod-card:hover { transform: translateY(-5px); border-color: #3498db; }
+button { background-color: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
+button:hover { background-color: #2980b9; }
